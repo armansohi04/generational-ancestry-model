@@ -1,20 +1,22 @@
-# 🧬 TMRCA Simulation
+# TMRCA Simulation
 
-This project simulates the number of generations it takes for a population to reach a Most Recent Common Ancestor (TMRCA) using random sampling methods based on Chang’s model.
+This project simulates how many generations it takes for a population to reach a Most Recent Common Ancestor (TMRCA). The simulation uses random sampling based on Chang’s model.
 
-## 📂 Files
-- `tmrca_simulation.R` – Core simulation script  
-- `tmrca_results.csv` – Output data from 25 simulations per population size  
-- `tmrca_boxplot.png` – Visualization of results  
+## Files
 
-## 📖 Description
-The script models how long it takes, in generations, for a population of size **1000**, **2000**, and **4000** to converge to a single common ancestor through random reproduction.  
-Results are summarized and visualized for clarity.
+- `tmrca_simulation.R` — main simulation script
+- `tmrca_results.csv` — results from the simulations
+- `tmrca_boxplot.png` — boxplot of the results
 
-This project was developed as part of my academic exploration in population modeling using **R**.
+## Description
 
-## ⚙️ How to Run
+The script runs simulations for population sizes of 1000, 2000, and 4000. For each population size, it tracks how many generations are needed until the population shares one common ancestor.
 
-Open **R** and run:
-```R
+The results are saved in a CSV file and visualized with a boxplot.
+
+## How to Run
+
+Open R and run:
+
+```r
 source("tmrca_simulation.R")
