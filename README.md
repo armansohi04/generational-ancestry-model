@@ -1,6 +1,6 @@
 # TMRCA Simulation
 
-This project simulates how many generations it takes for a population to reach a Most Recent Common Ancestor (TMRCA). It uses random sampling based on Chang’s model and compares results across different population sizes.
+This project simulates how many generations it takes for a population to reach a most recent common ancestor. It uses random sampling based on Chang’s model and compares results across different population sizes.
 
 ## Files
 
